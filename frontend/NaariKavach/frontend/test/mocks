@@ -1,0 +1,7 @@
+// frontend/tests/mocks/mockUser.js
+export const mockUser = {
+  id: "123",
+  name: "Test User",
+  email: "test@example.com",
+  token: "fake-jwt-token",
+};
