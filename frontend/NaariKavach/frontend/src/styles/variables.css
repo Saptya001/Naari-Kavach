@@ -1,0 +1,38 @@
+/* src/styles/variables.css */
+
+/* :root makes variables available globally */
+:root {
+  /* Brand Colors */
+  --color-primary: #e63946;   /* Red - SOS / Alert */
+  --color-secondary: #1d3557; /* Dark Blue */
+  --color-accent: #457b9d;    /* Light Blue */
+  --color-background: #f1faee; /* Light Background */
+  --color-text: #333333;      /* Dark Text */
+  --color-success: #2ecc71;   /* Green - Success */
+  --color-warning: #f39c12;   /* Orange - Warning */
+  --color-danger: #c0392b;    /* Dark Red - Error */
+
+  /* Typography */
+  --font-family-base: "Inter", "Roboto", "Arial", sans-serif;
+  --font-size-small: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+
+  /* Spacing (can be reused across app) */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
