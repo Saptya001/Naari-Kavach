@@ -1,13 +1,30 @@
 /* src/styles/global.css */
+<<<<<<< HEAD
 @import "./variables.css";
 
 /* Reset some default browser styles */
+=======
+
+/* ------------------ TAILWIND IMPORTS ------------------ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------ GOOGLE FONTS ------------------ */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+/* ------------------ CSS VARIABLES ------------------ */
+@import "./variables.css";
+
+/* ------------------ GLOBAL RESET ------------------ */
+>>>>>>> eb8238da0c41896b35b043b1dda8caec774387e5
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 /* Apply base font */
 body {
   font-family: var(--font-family);
@@ -73,4 +90,69 @@ button.danger:hover {
 
 .mb-md {
   margin-bottom: var(--spacing-md);
+=======
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: var(--font-family-base);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ------------------ GLOBAL ELEMENTS ------------------ */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+/* ------------------ CUSTOM SCROLLBAR ------------------ */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-accent);
+  border-radius: var(--radius-sm);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-secondary);
+}
+
+/* ------------------ UTILITY CLASSES ------------------ */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+.card {
+  background: #fff;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  padding: var(--spacing-md);
+}
+
+.sos-button {
+  background: var(--color-primary);
+  color: #fff;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-size: var(--font-size-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: 0.2s ease-in-out;
+}
+
+.sos-button:hover {
+  background: #b71c1c; /* darker red on hover */
+>>>>>>> eb8238da0c41896b35b043b1dda8caec774387e5
 }
