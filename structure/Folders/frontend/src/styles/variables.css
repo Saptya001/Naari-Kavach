@@ -1,44 +1,25 @@
 /* src/styles/variables.css */
 
-<<<<<<< HEAD
-:root {
-  /* Colors */
-  --primary-color: #007bff;
-  --secondary-color: #6c757d;
-  --danger-color: #dc3545;
-  --success-color: #28a745;
-  --light-color: #f8f9fa;
-  --dark-color: #343a40;
-
-  /* Fonts */
-  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  --font-size-base: 16px;
-  --font-size-lg: 18px;
-  --font-size-sm: 14px;
-
-  /* Spacing */
-=======
 /* :root makes variables available globally */
 :root {
-  /* Brand Colors */
-  --color-primary: #e63946;   /* Red - SOS / Alert */
-  --color-secondary: #1d3557; /* Dark Blue */
-  --color-accent: #457b9d;    /* Light Blue */
+  /* Colors */
+  --color-primary: #e63946;    /* Red - SOS / Alert */
+  --color-secondary: #1d3557;  /* Dark Blue */
+  --color-accent: #457b9d;     /* Light Blue */
   --color-background: #f1faee; /* Light Background */
-  --color-text: #333333;      /* Dark Text */
-  --color-success: #2ecc71;   /* Green - Success */
-  --color-warning: #f39c12;   /* Orange - Warning */
-  --color-danger: #c0392b;    /* Dark Red - Error */
+  --color-text: #333333;       /* Dark Text */
+  --color-success: #28a745;    /* Green - Success */
+  --color-warning: #f39c12;    /* Orange - Warning */
+  --color-danger: #dc3545;     /* Dark Red - Error */
 
-  /* Typography */
+  /* Fonts */
   --font-family-base: "Inter", "Roboto", "Arial", sans-serif;
-  --font-size-small: 0.875rem;
-  --font-size-base: 1rem;
-  --font-size-lg: 1.25rem;
-  --font-size-xl: 1.5rem;
+  --font-size-small: 0.875rem; /* 14px */
+  --font-size-base: 1rem;      /* 16px */
+  --font-size-lg: 1.25rem;     /* 20px */
+  --font-size-xl: 1.5rem;      /* 24px */
 
-  /* Spacing (can be reused across app) */
->>>>>>> eb8238da0c41896b35b043b1dda8caec774387e5
+  /* Spacing */
   --spacing-xs: 4px;
   --spacing-sm: 8px;
   --spacing-md: 16px;
@@ -46,11 +27,6 @@
   --spacing-xl: 32px;
 
   /* Border Radius */
-<<<<<<< HEAD
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 12px;
-=======
   --radius-sm: 6px;
   --radius-md: 12px;
   --radius-lg: 20px;
@@ -59,5 +35,4 @@
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.15);
   --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.2);
->>>>>>> eb8238da0c41896b35b043b1dda8caec774387e5
 }
